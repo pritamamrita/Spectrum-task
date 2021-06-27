@@ -1,4 +1,7 @@
-
+/* body{
+    height: 100%;
+    font-size: 100%;
+} */
 p{
     font-family: 'Barlow', serif;
     font-weight: 600;
@@ -21,13 +24,15 @@ p{
 } 
 
 .nav-item{
-    padding:0 2rem 0 1rem;
+    padding: 0 1em 0 1em;
     font-weight: bold;
 
 }
+
 .nav-link:hover{
     background-color: rgb(54, 197, 180);
     border-radius: 8%;
+
 }
 
 .navbar-brand{
@@ -160,8 +165,19 @@ p{
     
 }
 @media ( max-width:1000px) {
-     .navbar{
-         height: 10rem;
-     }
+    .nav-logo{
+        width: 60px;
+        height: 60px;
+    } 
+    .navbar-brand{
+        
+        font-size: 3rem;
+        font-weight: bolder;
+        
+        
+    }
+    .navbar{
+        height: 10rem;
+    }
 
 }
