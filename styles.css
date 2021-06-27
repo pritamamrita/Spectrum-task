@@ -1,0 +1,161 @@
+
+p{
+    font-family: 'Barlow', serif;
+    font-weight: 600;
+}
+
+ .container-fluid{
+    padding:  0;
+}
+
+.navbar{
+
+    background-color: rgb(161, 255, 249);
+    height: 5rem;
+
+}
+
+.nav-logo{
+    width: 30px;
+    height: 30px;
+} 
+
+.nav-item{
+    padding:0 2rem 0 1rem;
+    font-weight: bold;
+
+}
+.nav-link:hover{
+    background-color: rgb(54, 197, 180);
+    border-radius: 8%;
+}
+
+.navbar-brand{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+    
+}
+.title{
+    text-align: center;
+    padding-right: 0;
+    
+}
+.cover{
+    height: 50%;
+    
+    margin: 0;
+    width:95%;
+}
+ .motto{
+    padding:10% 0 0 12% ;
+    font-weight: 400;
+    text-align: left;
+}
+.head{
+    line-height: 1.3;
+    font-size: 4rem;
+    
+}
+ .banner{
+     padding-left: 2rem;
+    width: 100%;
+    height: 100%;
+} 
+.img-card{
+    width: 50%;
+
+}
+.card{
+    width: 60%;
+     display: flex; 
+      flex-wrap: wrap;
+      height: 400px;
+}
+.card-header{
+    height: 2cm;
+    width: 7cm;
+    
+}
+
+/* caraousel */
+#project{
+    padding: 2% 12% ;
+    height: 100%;
+    
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    /* outline: black;
+     background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+     border: 1px solid black; */
+     filter: invert(100%);
+}
+.project-row{
+   text-align: center;
+}
+.content{
+    text-align: left;
+     padding-top: 10%;
+     line-height: 1.5;
+} 
+.pro-head{
+    
+    
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.icon{
+    color: rgb(148, 255, 255);
+}
+.pro-btn{
+    
+    color: rgb(130, 248, 248);
+}
+#about-us{
+    
+    padding: 4% 12% 4% 12%;
+}
+.about-col{
+    padding-top:4% ;
+    line-height: 1.5;
+}
+.about-img{
+    padding-left: 20px;
+    width: 500px;
+}
+
+#footer{
+    text-align: center;
+    background-color: rgb(184, 245, 241);
+    padding-bottom: 2rem;
+}
+.address{
+    font-family: serif;
+    font-weight: 700;
+    padding-top: 2rem;
+}
+.social{
+    padding-top: 0.5rem;
+}
+.soc-link{
+    padding: 2% 1% 0 1%;
+    color: black;
+    
+}
+.soc-link:hover{
+    color: rgb(255, 139, 30);
+}
+.line{
+    width: 35%;
+    color: rgb(255, 139, 97);
+    border: 8px solid;
+    opacity: 1;
+    
+}
